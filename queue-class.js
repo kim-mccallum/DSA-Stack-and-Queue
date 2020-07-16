@@ -25,7 +25,7 @@ class Queue {
     this.last = node;
   }
   // remove an item from the bottom of the queue
-  dequeue(data) {
+  dequeue() {
     // if empty nothing to remove
     if (this.first === null) {
       return;
@@ -34,7 +34,7 @@ class Queue {
     const node = this.first;
     // set the second item in the queue to be the first (new first after removal)
     this.first = this.first.next;
-    //if this is the first item in the queue
+    //if this is the last/only item in the queue
     if (node === this.last) {
       //set our last to null
       this.last = null;

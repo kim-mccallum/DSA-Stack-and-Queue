@@ -11,7 +11,7 @@ let newQueue = new Queue();
 
 ourItems.forEach((item) => newQueue.enqueue(item));
 
-console.log(newQueue);
+// console.log(newQueue);
 
 const helperFuncs = {
   peek: (queue) => {
@@ -48,8 +48,16 @@ const helperFuncs = {
 };
 
 //run the functions
+// console.log(helperFuncs.peek(newQueue));
+// console.log(helperFuncs.isEmpty(newQueue));
+// console.log(helperFuncs.display(newQueue));
+
+// // dequee Spock - this requires two dequeues as Spck is second in line
+console.log(newQueue.dequeue());
+console.log("testing...");
 console.log(helperFuncs.peek(newQueue));
-console.log(helperFuncs.isEmpty(newQueue));
-console.log(helperFuncs.display(newQueue));
+console.log(newQueue.dequeue());
+console.log("Did we get rid of Spock?");
+console.log(helperFuncs.peek(newQueue));
 
 module.exports = { helperFuncs };
