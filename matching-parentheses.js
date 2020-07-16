@@ -67,7 +67,7 @@ const parentheses = (exp) => {
   return `Expression is valid`;
 };
 
-// console.log(parentheses("{test}[okay](), )"));
+console.log(parentheses("{test}[okay](), )"));
 
 const isMatchingBrackets = function (str) {
   let stack = [];

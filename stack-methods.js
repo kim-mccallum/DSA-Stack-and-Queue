@@ -46,7 +46,7 @@ const helperFuncs = {
 // console.log("\nAdding 'Hello, world!' to stack...");
 // myStack.push("Hello, world!");
 
-console.log("\nDisplay Stack:");
-console.log(helperFuncs.display(myStack));
+// console.log("\nDisplay Stack:");
+// console.log(helperFuncs.display(myStack));
 
 module.exports = helperFuncs;

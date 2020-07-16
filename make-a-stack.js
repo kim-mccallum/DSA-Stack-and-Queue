@@ -6,6 +6,6 @@ let myStack = new Stack();
 
 addItems.forEach((item) => myStack.push(item));
 
-console.log(myStack.top.next);
+// console.log(myStack.top.next);
 
 module.exports = myStack;
