@@ -53,11 +53,11 @@ const helperFuncs = {
 // console.log(helperFuncs.display(newQueue));
 
 // // dequee Spock - this requires two dequeues as Spck is second in line
-console.log(newQueue.dequeue());
-console.log("testing...");
-console.log(helperFuncs.peek(newQueue));
-console.log(newQueue.dequeue());
-console.log("Did we get rid of Spock?");
-console.log(helperFuncs.peek(newQueue));
+// console.log(newQueue.dequeue());
+// console.log("testing...");
+// console.log(helperFuncs.peek(newQueue));
+// console.log(newQueue.dequeue());
+// console.log("Did we get rid of Spock?");
+// console.log(helperFuncs.peek(newQueue));
 
 module.exports = { helperFuncs };
